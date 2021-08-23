@@ -20,7 +20,12 @@ All preferences are located in the design tab of the widget options. These inclu
 
 ## Date Range
 The widget will not do any normalisation for part-filled date ranges. Therefore, it's recommended to use 'previous' settings wherever possible. For example, the image uses a custom date range for 'Previous 4 Weeks'. Here's how that's set up:
+
 Start:
-`DATEADD('d', -21, env['PREV_WEEK_START'])`
+```
+DATEADD('d', -21, env['PREV_WEEK_START'])
+```
 End:
-`env['PREV_WEEK_END']`
+```
+env['PREV_WEEK_END']
+```
