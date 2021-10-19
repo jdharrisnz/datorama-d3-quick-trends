@@ -19,7 +19,7 @@ Style dependency:
 All preferences are located in the design tab of the widget options. These include light or dark mode, and positive/neutral/negative settings for each measurement.
 
 ## Date Range
-The widget will not do any normalisation for part-filled date ranges. Therefore, it's recommended to use 'previous' settings wherever possible. For example, the image uses a custom date range for 'Previous 4 Weeks'. Here's how that's set up:
+The widget will not do any normalisation for part-filled date ranges, but it will add a warning for incomplete first or last periods. Therefore, it's recommended to use 'previous' settings wherever possible. For example, the image uses a custom date range for 'Previous 4 Weeks'. Here's how that's set up:
 
 Start:
 ```
